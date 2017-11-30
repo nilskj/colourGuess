@@ -1,0 +1,49 @@
+body {
+  background-color: #222;
+  margin: 0;
+  padding: 0;
+  font-family: 'Playfair Display', serif;
+}
+
+
+.square {
+  width: 30%;
+  background: purple;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.66%;
+}
+
+.selected {
+  background: #343434;
+  color: white;
+}
+
+h1 {
+  color: white;
+  padding: 40px 0;
+  margin: 0;
+  text-align: center;
+}
+
+#container {
+  margin: 1.66% auto;
+  max-width: 444px;
+}
+
+
+#stripe {
+  height: 30px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  padding-top: 10px;
+}
+
+#labelMsg {
+  padding-left: 100px;
+}
+
+#restartButton {
+  margin-right: 100px;
+}

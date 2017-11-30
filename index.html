@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Colour Game</title>
+    <link rel="stylesheet" href="res/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+
+  </head>
+  <body>
+    <h1>The RGB Colour Guessing Game<br/>Which one is <span id="pickedC"></span>?</h1>
+
+    <div id="stripe">
+      <button id="restartButton" type="button">New Colours</button>
+      <select name="diffSelect" id="selectDiff">
+        <option value="2">Easy (2)</option>
+        <option value="3" selected>Medium (3)</option>
+        <option value="6">Hard (6)</option>
+        <option value="9">Extreme (9)</option>
+      </select>
+      <span id="labelMsg">&nbsp;</span>
+    </div>
+
+    <div id="container">
+      <!-- To be populated with squares -->
+    </div>
+
+  <script type="text/javascript" src="res/script.js"></script>
+  </body>
+</html>
