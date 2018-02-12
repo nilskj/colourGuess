@@ -59,7 +59,6 @@ function startGame(num) {
 }
 
 
-
 //Change all colours
 function changeColours(colour) {
   for(var i=0;i<squares.length; i++) {
